@@ -1,0 +1,16 @@
+[Container]
+Image=jellyfin.container
+
+Environment=PUID=1000
+Environment=GUID=1000
+Environment=TZ=Europe/Belgrade
+Environment=JELLYFIN_PublishedServerUrl=http://192.168.0.5
+
+Volume=jellyfin-config.volume:/config
+Volume=arr-movies.volume:/data/movies
+Volume=arr-tv.volume:/data/tvshows
+
+Pod=arr.pod
+
+[Service]
+Restart=unless-stopped

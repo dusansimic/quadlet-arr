@@ -1,0 +1,13 @@
+[Container]
+Image=prowlarr.container
+
+Environment=PUID=1000
+Environment=GUID=1000
+Environment=TZ=Europe/Belgrade
+
+Volume=prowlarr-config.volume:/config
+
+Pod=arr.pod
+
+[Service]
+Restart=unless-stopped

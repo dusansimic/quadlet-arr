@@ -1,0 +1,14 @@
+[Container]
+Image=deluge.container
+
+Environment=PUID=1000
+Environment=GUID=1000
+Environment=TZ=Europe/Belgrade
+
+Volume=deluge-config.volume:/config
+Volume=arr-downloads.volume:/downloads
+
+Pod=arr.pod
+
+[Service]
+Restart=unless-stopped
