@@ -1,2 +1,3 @@
 [Pod]
 Network=arr.network
+PublishPort=8096:8096
