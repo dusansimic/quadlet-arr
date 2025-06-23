@@ -1,5 +1,5 @@
 [Container]
-Image=jellyfin.container
+Image=jellyfin.image
 
 Environment=PUID=1000
 Environment=GUID=1000

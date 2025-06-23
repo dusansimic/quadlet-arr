@@ -1,5 +1,5 @@
 [Container]
-Image=radarr.container
+Image=radarr.image
 
 Environment=PUID=1000
 Environment=GUID=1000

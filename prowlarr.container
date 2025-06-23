@@ -1,5 +1,5 @@
 [Container]
-Image=prowlarr.container
+Image=prowlarr.image
 
 Environment=PUID=1000
 Environment=GUID=1000

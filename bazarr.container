@@ -1,5 +1,5 @@
 [Container]
-Image=bazarr.container
+Image=bazarr.image
 
 Environment=PUID=1000
 Environment=GUID=1000
