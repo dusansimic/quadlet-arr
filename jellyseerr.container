@@ -1,0 +1,11 @@
+[Container]
+Image=jellyseerr.container
+
+Environment=TZ=Europe/Belgrade
+
+Volume=jellyseerr-config.volume:/app/config
+
+Pod=arr.pod
+
+[Service]
+Restart=unless-stopped
