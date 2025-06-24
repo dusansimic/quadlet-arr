@@ -4,7 +4,7 @@ Image=jellyfin.image
 Environment=PUID=1000
 Environment=GUID=1000
 Environment=TZ=Europe/Belgrade
-Environment=JELLYFIN_PublishedServerUrl=http://192.168.0.5
+Environment=JELLYFIN_PublishedServerUrl=http://localhost:8096
 
 Volume=jellyfin-config.volume:/config
 Volume=arr-movies.volume:/data/movies
