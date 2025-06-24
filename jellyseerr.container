@@ -4,6 +4,8 @@ Image=jellyseerr.image
 Environment=TZ=Europe/Belgrade
 
 Volume=jellyseerr-config.volume:/app/config
+Volume=arr-movies.volume:/movies
+Volume=arr-tv.volume:/tv
 
 Pod=arr.pod
 
