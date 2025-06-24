@@ -4,3 +4,13 @@ Network=arr.network
 PublishPort=8096:8096
 # jellyseerr
 PublishPort=5055:5055
+# sonarr
+PublishPort=8989:8989
+# radarr
+PublishPort=7878:7878
+# prowlarr
+PublishPort=9696:9696
+# bazarr
+PublishPort=6767:6767
+# deluge
+PublishPort=8112:8112
