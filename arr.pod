@@ -1,3 +1,4 @@
 [Pod]
 Network=arr.network
-PublishPort=8096:8096
+PublishPort=8096:8096 # jellyfin
+PublishPort=5055:5055 # jellyseerr
